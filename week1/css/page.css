@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../image/axit.png');
+    background-size: cover;
+}
+
+header {
+    background-color: #1b1b1b;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.logo span {
+    color: #f96e46;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 100px 33px;
+    width: 1200px;
+    color: #fff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #f96e46;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 5px;
+    color: #333;
+    max-width: 300px;
+    text-align: center;
+}
+
+.signup-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-form h2 span {
+    color: #f96e46;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.signup-form button {
+    width: 100%;
+    background-color: #f96e46;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*********************************************/
+/*********************************************/
+.container {
+    display: flex;
+    align-items: flex-start;
+    background-color: #D8D5D4;
+    padding: 20px;
+}
+
+.social-media {
+    width: 97%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-right: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    color: #D8D5D4;
+    font-size: 25px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 100px;
+    height: 300px;
+}
+
+.tab {
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    height: 250px;
+}
+
+.tab.active {
+    background-color: #f96e46;
+    height: 250px;
+}
+
+.tab-content {
+    display: none;
+    padding: 25px;
+    margin-top: -1px;
+}
+
+.download-button {
+    background-color: #f96e46;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+}
+
+.image {
+    width: 300px; 
+    height: auto;
+    margin-left: 20px;
+}
+
+.tab-1 .tab-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.MyContainerTabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.TabsContainer {
+    padding: 100px 0;
+}
+
+.social-media-Items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-Items .social-icons {
+    display: flex;
+    margin-right: auto;
+}
+
+.social-media-Items .social-icons i {
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+
+
+/*********************************************/
+/*********************************************/
+.SubListSection {
+    background: #FFF;
+    padding: 50px 0;
+}
+
+.SubListSectionItem div div {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f96e46;
+    align-items: center;
+    text-align: center;
+}
+
+.SubListSectionItem div div i {
+    margin-top: 15px;
+    color: #f96e46;
+    font-size: 20px;
+}
+
+.SubListSectionItem {
+    display: flex;
+    align-items: center;
+}
+
+/*********************************************/
+/*********************************************/
+
+.StandardPictureSection {
+    background-color: #f0f0f0;
+}
+
+.StandardPictureSection .MyContainer {
+    overflow: hidden; 
+}
+
+.StandardPictureSection .MyContainer div {
+    float: left; 
+    width: 50%; 
+}
+
+.StandardPictureSection .MyContainer div p {
+    color: #7f7f7f;
+}
+
+
