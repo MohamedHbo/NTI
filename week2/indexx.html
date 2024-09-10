@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Sayed</title>
+  <style>
+    .hid {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .hid:hover p {
+      display: none;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+      
+    .card-container {
+      display: flex;
+      gap: 20px; 
+      justify-content: center; 
+      margin-top: 30px;
+    }
+
+    .card {
+      width: 150px;
+      height: 100px;
+      background-color: #4aa4e0;
+      transform: skewX(0deg);
+      animation: swayX 5s infinite ease-in-out alternate;
+    }
+
+    @keyframes swayX {
+      0% {
+        transform: skewX(15deg);
+      }
+      50% {
+        transform: skewX(-15deg);
+      }
+      100% {
+        transform: skewX(15deg);
+      }
+    }
+
+    .card-container2 {
+      display: flex;
+      gap: 20px; 
+      justify-content: center; 
+      margin-top: 40px;
+    }
+
+    .card2 {
+      width: 150px;
+      height: 100px;
+      background-color: burlywood;
+      animation-direction: alternate;
+      animation: swayY 5s infinite;
+    }
+
+    @keyframes swayY {
+      0% {
+        transform: skewY(15deg);
+      }
+      50% {
+        transform: skewY(-15deg);
+      }
+      100% {
+        transform: skewY(15deg);
+      }
+    }
+
+    .card-container3 {
+      display: flex;
+      gap: 20px; 
+      justify-content: center; 
+      margin-top: 40px;
+    }
+
+    .card3 {
+      width: 150px;
+      height: 100px;
+      background-color: aqua;
+      animation: rotateY 5s infinite alternate;
+    }
+
+    @keyframes rotateY {
+      0% {
+        transform: rotateY(0deg);
+      }
+      100% {
+        transform: rotateY(55deg);
+      }
+    }
+    
+    .card-container4 {
+      display: flex;
+      gap: 20px; 
+      justify-content: center; 
+      margin-top: 50px;
+    }
+
+    .card4 {
+      width: 150px;
+      height: 100px;
+      background-color: lightcoral;
+      animation: rotate 5s infinite linear;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <section class="hid">
+    <button>Hidden</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
+  </section>
+    
+  <div class="card-container">
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+  <div class="card-container2">
+    <div class="card2"></div>
+    <div class="card2"></div>
+    <div class="card2"></div>
+  </div>
+    
+  <div class="card-container3">
+    <div class="card3"></div>
+    <div class="card3"></div>
+    <div class="card3"></div>
+  </div>
+
+  <div class="card-container4">
+    <div class="card4"></div>
+    <div class="card4"></div>
+    <div class="card4"></div>
+  </div>
+
+</body>
+</html>
